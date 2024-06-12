@@ -1,0 +1,176 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 98%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.container2{
+    margin-top: -321px;
+}
+
+@media only screen and (max-width: 1068px) {
+    .page-overview .trade-in-ribbon .ribbon-content-wrapper-avail {
+        padding-top: 1.62em;
+        padding-bottom: 1.62em;
+    }}
+
+
+header {
+    background: black;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: solid;
+}
+
+nav{
+    float:right;
+    margin-top: -30px;
+    margin-right: 20px;
+}
+nav a {
+    margin: 0 15px;
+    padding: 10px 15px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercaseç;
+    font-size: 16px;
+    transition: color 0.3s ease;
+    background-color:  0.3s ease;
+}
+
+
+nav a:hover {
+    background-color: #0779e4;
+    color: #f4f4f4;
+    border-radius: 5px;
+}
+
+
+@media (max-width: 768px) {
+     nav {
+        float: none;
+        text-align: center;
+        margin-top: 0;
+    }
+
+     nav a {
+        display: block;
+        margin: 10px 0;
+    }
+
+    header {
+        text-align: center;
+    }
+}
+
+.hero {
+    background: url();
+    min-height: 400px;
+    position: relative;
+    
+}
+
+.cta-links{
+    margin-top: 13px;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 36%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 4em;
+}
+
+.content {
+    padding: 20px;
+    background: #fff;
+}
+
+.content p{
+    font-size: 1.2em;
+}
+
+
+
+.button {
+   display: inline-block;
+   font-size: 18px;
+   color: #fff;
+   background: #0b4ade;
+   padding: 2px  20px;
+   text-decoration: none;
+   border-radius: 5px;
+   transition: background 0.3s  ease;
+}
+
+.button:hover {
+    background: #333
+}
+
+
+
+.hero{
+    background: url(./IMG/hero_iphone15pro__i70z9oz3hj2i_mediumtall_2x.jpg) no-repeat center  center/cover;
+    color: #fff;
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.image-vision{
+    display: flex;
+    align-items: center;
+}
+
+.image-vision p{
+    margin-top: -687px;
+    flex: none;
+    position: absolute;
+    margin-left: 1035px;
+
+}
+
+.button-buy{
+    margin-top: -605px;
+    position: relative;
+    font-size: smaller;
+    padding: 0 16px;
+}
+
+.button-tertiary {
+    margin-top: -35%;
+    line-height: 28px;
+    font-family: monospace;
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
